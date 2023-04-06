@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <nav>
+            
+            <div>
+                <img src="" alt="">
+                <a href="">Products</a>
+                <a href="">Ebooks</a>
+                <a href="">About us</a>
+                <a href="">Reviews</a>
+                <a href="">Warranty</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <section>
+            
+            <div>
+                <img src="pug2.jpg" alt="">
+            </div>
+
+            <section>
+    
+                <div><h1>Toys That Pets Love</h1></div>
+                <div><h3>Innovate pet products to keep your pet actively engaged & exercised.</h3></div>
+                <button>Explore our Products</button>
+    
+            </section>
+
+        </section>
+        
+        <section>
+
+            <h2>Product Range</h2>
+
+            <div>
+
+                <img src="" alt="">
+                <h2></h2>
+                <h3></h3>
+                <button></button>
+
+            </div>
+
+            <div>
+
+                <img src="" alt="">
+                <h2></h2>
+                <h3></h3>
+                <button></button>
+
+            </div>
+
+            <div>
+
+                <img src="" alt="">
+                <h2></h2>
+                <h3></h3>
+                <button></button>
+
+            </div>
+           
+
+        </section>
+
+        <section>
+
+            <h2>Ebooks & Manuals</h2>
+            <h3>Click here to download e-books and manuals for our products</h3>
+            <button>E-books Coming Soon</button>
+
+        </section>
+
+        <section>
+
+            <h1>We Make Pets Happy</h1>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+
+
+
+</html>

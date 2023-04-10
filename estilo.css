@@ -205,3 +205,18 @@ main:before{
     margin-bottom: 65px;   
 }
 
+.perroblanco{
+    background-image: url(perroblanco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.perroblanco h1{
+    width: 400px;
+    margin-right: 200px;
+}

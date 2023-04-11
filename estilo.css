@@ -46,11 +46,18 @@ a{
 a:hover{
     color: #F53A50;
 }
+html{
+    scroll-behavior: smooth;
+}
 nav{
-    padding: 0.25em;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    padding: 0em 2.4em 0.5em 0em;
     display: flex;
     justify-content: space-around;
     align-items: end;
+    
 }
 
 .logo{
@@ -814,6 +821,16 @@ input:focus, select:focus, select, input.form-control:focus {
         background-repeat: no-repeat;
         background-position: right;
         background-size: contain;
+    }
+    nav{
+        position: fixed;
+        z-index: 1000;
+        background-color: white;
+        padding: 0em 2.4em 0.5em 0em;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        
     }
 }
 

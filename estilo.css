@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 h1{
     color: white;
     font-family: 'Work Sans', sans-serif;
@@ -9,6 +10,7 @@ h1{
     position: relative;
     z-index: 5;    
     font-size: 70px;
+    cursor: default;
 }
 h2{
     color: #F53A50;
@@ -17,6 +19,7 @@ h2{
     font-weight: 600;
     margin-top: 15px;
     margin-bottom: 15px;
+    cursor: default;
 }
 h3{
     color: white;
@@ -25,6 +28,7 @@ h3{
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: default;
 }
 
 a{
@@ -35,6 +39,10 @@ a{
     font-weight: 600;
     margin-left: 20px;
     margin-right: 20px;
+    transition: color 0.2s ;
+}
+a:hover{
+    color: #F53A50;
 }
 nav{
     padding: 4px;
@@ -88,8 +96,14 @@ main:before{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     color:#F53A50;
-    border-style: none;
+    border: 2px solid white;
     cursor: pointer;
+    transition: background-color, 0.3s, color 0.3s;
+}
+.explorar:hover{
+    background-color: #C94970;
+    color: white;
+    
 }
 .productos{
     display: flex;
@@ -124,6 +138,7 @@ main:before{
         font-weight: 300;
         margin-top: 10px;
         margin-bottom: 10px;
+        cursor: default;
     
 }
 .caja2 div{
@@ -151,17 +166,24 @@ main:before{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     color:white;
-    border-style: none;
+    border: 2px solid #F53A50;
     cursor: pointer;
     box-shadow: 3px 3px 10px rgba(245, 58, 80, 1);
+    transition: background-color 0.3s,color 0.3s;
+}
+.caja2 button:hover{
+    background-color: white;
+    color: #F53A50;
 }
 
 .juguete{
-    margin-bottom: 16px;
+    margin-bottom: 0px;
     width: 250px;
     height: 229px;
 }
-
+.especifico{
+    height: 95px;
+}
 
 .manual{
     background: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83%, #FC697B);
@@ -200,11 +222,15 @@ main:before{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     color:#F53A50;
-    border-style: none;
+    border: 2px solid white;
     cursor: pointer;
     margin-bottom: 65px;   
+    transition: background-color 0.3s,color 0.3s
 }
-
+.manual button:hover{
+    background-color: rgb(204, 36, 92);
+    color: white;
+}
 .perroblanco{
     background-image: url(perroblanco.png);
     background-position: center;
@@ -359,7 +385,7 @@ main:before{
 }
 .productosunicos img{
     width: 400px;
-    margin-top: 130px;
+    margin: 130px 100px 0px 0px;
 }
 .productosunicos h1{
     color: #F53A50;
@@ -386,6 +412,7 @@ main:before{
     margin-left: 20px;
     font-weight: 400;
     line-height: 25px;
+    cursor: default;
 }
 .cajas2 p{
     font-family:'Work Sans', sans-serif;
@@ -438,7 +465,182 @@ span{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     color:#F53A50;
-    border-style: none;
+    border: 2px solid white;
     cursor: pointer;
     margin-bottom: 65px;   
+    transition: background-color 0.3s,color 0.3s;
+}
+.warranty button:hover{
+    background-color: rgb(204, 36, 92);
+    color: white;
+}
+.contacto{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja5{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contacto h1{
+    color: #F53A50;
+    width: max-content;
+    font-size: 50px;
+    margin: 50px 0px 50px 0px;
+    
+}
+.cajas3{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+.nombre{
+    display: flex;
+    flex-direction: row;
+}
+.cajas4{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(127, 124, 124);
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+::placeholder{
+    color: rgb(127, 124, 124);
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.cajas4 input{
+    margin-bottom: 20px;
+    padding: 11px;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0 0 5px rgba(245, 58, 80, 0.5);
+    margin-right: 20px;
+    width: 200px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+
+.cajas3{
+    width: 484px;
+}
+
+.subject{
+    margin-bottom: 20px;
+    padding: 11px;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0 0 5px rgba(245, 58, 80, 0.5);
+    margin-right: 20px;
+    width: 442px;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.mensaje{
+    margin-bottom: 5px;
+    padding: 11px;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0 0 5px rgba(245, 58, 80, 0.5);
+    margin-right: 20px;
+    width: 442px;
+    padding-bottom: 200px  ;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.contacto button{
+    background-color: #F53A50;
+    width: 170px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px;
+    border-radius: 6px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color:white;
+    border: 2px solid #F53A50;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(245, 58, 80, 1);
+    margin: 50px 0px 50px 0px;
+    transition: background-color 0.3s,color 0.3s;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: #F53A50;
+}
+
+.fondo{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(29deg, #C94970 0%, #AB1367 0%, #F53A50 83%, #FC697B);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.redes img{
+    margin: 0px 20px 50px 20px;
+    width: 20px;
+    cursor:pointer;
+    transition: width 0.3s,margin 0.3s;
+}
+
+.redes img:hover{
+    width: 25px;
+    margin: 0px 17.9px 50px 17.9px;
+}
+
+.negro{
+    position: absolute;
+    left: 100px;
+    width: 370px;
+}
+
+.final{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final p{
+    color: #AB1367;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    cursor: default;
+}
+
+input:hover{
+    background-color: rgba(245, 58, 80, 0.5);
+}
+
+input:focus, select:focus, select, input.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+  background-color: rgba(245, 58, 80, 0.5);
+    -moz-box-shadow: none;
+
 }

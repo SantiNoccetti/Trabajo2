@@ -826,6 +826,7 @@ input:focus, select:focus, select, input.form-control:focus {
     nav{
         position: fixed;
         z-index: 1000;
+        width: 100vw;
         background-color: white;
         padding: 0em 2.4em 0.5em 0em;
         display: flex;
